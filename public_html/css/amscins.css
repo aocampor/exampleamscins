@@ -1,0 +1,71 @@
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+  	
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    
+    width:228px;
+  }
+}
+td ul{
+    margin-left:0;
+    padding-left: 0;
+}
+.affix,.affix-top {
+   position:static;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 100%;
+    margin: auto;
+}
+.center-text{
+    text-align: center;
+}
+.clear{
+    clear:both;
+}
+.botton-width{
+    width:250px;   
+}
+.initial-top-margin{
+    margin-top: 90px;
+}
+.navbar-background-color{
+    background-color: white;
+}
+.navbar-brand img{
+    margin-top:-8px;
+    height: 35px;
+}
+.navbar-height{
+    height: 58px;
+}
+.navbar-margin-left{
+    margin-left: 60px;
+}
+.navbar-top-margin{
+    margin-top: 15px;
+}
+.transparent{
+    opacity: 0.8;
+}
+.top-margin{
+    margin-top: 10px;
+}
+#wrapper{
+    margin:0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-image: url("../images/Fish.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: -2;
+}
